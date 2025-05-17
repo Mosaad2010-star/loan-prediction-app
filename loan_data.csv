@@ -1,0 +1,1001 @@
+ID,Age,Gender,Marital_Status,Income,Loan_Amount,Credit_Score,Employment_Status,Loan_Purpose,Approved
+1,59,Male,Single,9993,35591,0.47,Self-employed,Business,0
+2,49,Male,Married,8007,18858,0.47,Unemployed,Education,0
+3,35,Male,Married,7542,19626,0.56,Unemployed,Car,0
+4,63,Female,Single,11092,14467,0.89,Unemployed,Home Improvement,1
+5,28,Female,Single,13276,40758,0.34,Self-employed,Car,0
+6,41,Male,Married,8356,4134,0.61,Self-employed,Home Improvement,1
+7,59,Male,Married,12201,17743,0.41,Unemployed,Personal,0
+8,39,Male,Single,10433,16434,0.88,Unemployed,Home Improvement,1
+9,43,Female,Single,9380,48775,0.37,Employed,Home Improvement,0
+10,31,Female,Married,4385,11233,0.54,Employed,Home Improvement,0
+11,31,Female,Married,6268,2141,0.74,Employed,Business,1
+12,44,Female,Married,2671,19019,0.72,Unemployed,Home Improvement,0
+13,56,Male,Married,2163,21384,0.55,Unemployed,Education,0
+14,60,Male,Single,10656,43903,0.51,Unemployed,Education,0
+15,44,Male,Married,13234,46734,0.54,Employed,Car,0
+16,23,Male,Married,6592,37129,0.46,Self-employed,Business,0
+17,42,Female,Single,6795,23967,0.42,Unemployed,Car,0
+18,22,Female,Married,12634,41603,0.59,Self-employed,Education,0
+19,44,Male,Single,6798,12172,0.46,Self-employed,Education,0
+20,64,Male,Married,8036,17390,0.47,Self-employed,Personal,0
+21,50,Female,Married,4355,4267,0.69,Employed,Home Improvement,1
+22,58,Male,Single,7887,40332,0.88,Self-employed,Education,0
+23,22,Female,Single,14470,27167,0.66,Unemployed,Car,1
+24,41,Male,Married,14916,22312,0.35,Employed,Car,0
+25,53,Male,Married,9961,28840,0.35,Unemployed,Home Improvement,0
+26,32,Male,Married,12749,19990,0.87,Unemployed,Home Improvement,1
+27,42,Male,Single,7827,45179,0.48,Employed,Personal,0
+28,64,Male,Married,10737,6906,0.36,Unemployed,Business,0
+29,45,Male,Single,6719,49796,0.66,Unemployed,Car,0
+30,47,Male,Single,14027,41379,0.67,Employed,Home Improvement,0
+31,62,Female,Married,2593,18297,0.69,Unemployed,Car,0
+32,48,Female,Single,6839,3011,0.46,Self-employed,Home Improvement,0
+33,36,Female,Married,9394,45014,0.31,Unemployed,Education,0
+34,35,Female,Married,13996,47558,0.88,Self-employed,Car,0
+35,64,Female,Married,11651,12738,0.45,Unemployed,Education,0
+36,23,Male,Married,5493,29797,0.71,Employed,Car,1
+37,57,Male,Married,12793,48498,0.72,Employed,Business,0
+38,27,Female,Single,8164,12120,0.67,Unemployed,Personal,1
+39,41,Male,Single,12636,9767,0.49,Employed,Education,0
+40,29,Female,Married,4672,23852,0.46,Unemployed,Home Improvement,0
+41,59,Female,Married,6200,14703,0.66,Employed,Business,1
+42,38,Male,Single,2016,1929,0.82,Self-employed,Car,0
+43,24,Male,Single,5191,12951,0.87,Unemployed,Education,1
+44,45,Male,Single,2392,27039,0.36,Self-employed,Car,0
+45,34,Female,Single,10616,49613,0.39,Self-employed,Car,0
+46,29,Male,Married,8272,30504,0.87,Unemployed,Car,0
+47,46,Female,Married,2571,18438,0.74,Self-employed,Personal,0
+48,22,Female,Single,5631,49515,0.83,Unemployed,Personal,0
+49,40,Female,Married,8172,6744,0.42,Self-employed,Home Improvement,0
+50,48,Male,Single,11312,19284,0.65,Unemployed,Education,1
+51,27,Male,Married,9177,43417,0.72,Unemployed,Business,0
+52,64,Female,Single,10433,40748,0.71,Employed,Business,0
+53,28,Male,Married,5897,8069,0.54,Unemployed,Business,0
+54,55,Male,Single,14287,43359,0.31,Unemployed,Car,0
+55,34,Male,Single,10123,20799,0.65,Self-employed,Personal,1
+56,37,Female,Married,4279,34210,0.45,Unemployed,Education,0
+57,56,Female,Single,10980,29226,0.57,Employed,Car,0
+58,60,Male,Married,9451,5652,0.87,Self-employed,Personal,1
+59,24,Female,Married,10906,25323,0.54,Self-employed,Personal,0
+60,22,Male,Single,13041,43138,0.8,Employed,Education,0
+61,26,Male,Married,2775,8597,0.41,Self-employed,Education,0
+62,62,Male,Married,14218,48093,0.7,Self-employed,Education,0
+63,24,Male,Married,8869,38226,0.89,Self-employed,Car,0
+64,49,Female,Married,4247,7591,0.36,Self-employed,Home Improvement,0
+65,38,Female,Married,9088,26833,0.3,Employed,Education,0
+66,46,Female,Single,2078,12826,0.56,Employed,Home Improvement,0
+67,64,Male,Married,10080,27417,0.36,Self-employed,Car,0
+68,54,Male,Married,9099,19693,0.75,Self-employed,Home Improvement,1
+69,30,Male,Married,5926,15138,0.85,Employed,Business,1
+70,56,Female,Married,11047,3169,0.56,Employed,Home Improvement,0
+71,34,Male,Married,9340,19556,0.46,Employed,Education,0
+72,51,Female,Single,9083,23052,0.56,Self-employed,Car,0
+73,35,Female,Married,8230,7313,0.73,Self-employed,Education,1
+74,28,Female,Single,12340,9315,0.31,Unemployed,Business,0
+75,34,Female,Single,11223,9036,0.65,Employed,Education,1
+76,43,Female,Single,6940,32778,0.67,Self-employed,Education,0
+77,60,Female,Single,5271,28734,0.68,Employed,Education,1
+78,41,Male,Married,13768,24173,0.45,Self-employed,Personal,0
+79,36,Male,Single,14374,31403,0.73,Employed,Business,0
+80,38,Female,Single,5456,1785,0.35,Self-employed,Education,0
+81,44,Female,Married,9788,7139,0.42,Unemployed,Education,0
+82,46,Male,Married,13698,7344,0.83,Unemployed,Education,1
+83,45,Female,Married,10599,19800,0.74,Employed,Car,1
+84,61,Female,Single,9650,26372,0.31,Self-employed,Personal,0
+85,49,Male,Married,4711,21538,0.45,Self-employed,Car,0
+86,35,Female,Married,13280,15973,0.43,Employed,Personal,0
+87,21,Female,Single,3668,6619,0.46,Self-employed,Education,0
+88,45,Female,Married,2147,35704,0.45,Employed,Business,0
+89,27,Male,Married,8420,37575,0.34,Self-employed,Home Improvement,0
+90,29,Male,Married,14519,40919,0.58,Employed,Home Improvement,0
+91,44,Male,Married,14089,43261,0.74,Self-employed,Education,0
+92,21,Female,Single,12142,46123,0.66,Employed,Car,0
+93,64,Female,Married,2365,28716,0.7,Self-employed,Business,0
+94,28,Male,Married,11866,4236,0.35,Unemployed,Personal,0
+95,44,Female,Single,6531,16848,0.87,Self-employed,Education,1
+96,31,Female,Married,14686,3352,0.8,Employed,Business,1
+97,37,Female,Single,7330,2932,0.78,Unemployed,Business,1
+98,28,Female,Married,7510,11913,0.79,Self-employed,Personal,1
+99,55,Female,Single,12738,9556,0.86,Unemployed,Business,1
+100,55,Male,Single,10754,22300,0.63,Self-employed,Car,1
+101,53,Female,Single,13754,6498,0.42,Unemployed,Car,0
+102,25,Male,Single,12681,11582,0.67,Employed,Car,1
+103,62,Female,Married,10964,47633,0.75,Self-employed,Business,0
+104,59,Male,Single,8493,10569,0.74,Self-employed,Car,1
+105,61,Female,Married,12229,5857,0.61,Employed,Personal,1
+106,48,Male,Single,13615,1340,0.34,Unemployed,Business,0
+107,27,Female,Single,12759,44949,0.52,Employed,Home Improvement,0
+108,29,Male,Single,7439,17766,0.85,Employed,Business,1
+109,28,Female,Married,11765,27132,0.65,Unemployed,Personal,1
+110,32,Male,Single,13886,9491,0.62,Employed,Home Improvement,1
+111,54,Female,Married,8511,1138,0.46,Self-employed,Business,0
+112,53,Male,Married,13483,1358,0.52,Self-employed,Car,0
+113,43,Male,Married,9504,10714,0.84,Self-employed,Education,1
+114,44,Female,Married,3246,20840,0.7,Employed,Education,0
+115,57,Female,Married,13911,35395,0.77,Self-employed,Car,0
+116,55,Male,Married,5839,31654,0.57,Self-employed,Education,0
+117,64,Female,Married,10551,26879,0.68,Self-employed,Education,1
+118,60,Male,Married,4376,16996,0.45,Self-employed,Car,0
+119,42,Male,Married,5009,38772,0.72,Self-employed,Car,0
+120,47,Male,Single,13185,27762,0.56,Self-employed,Business,0
+121,55,Female,Single,11154,14283,0.57,Employed,Business,0
+122,21,Male,Single,13824,40420,0.69,Self-employed,Car,0
+123,55,Male,Single,3827,20554,0.86,Self-employed,Personal,0
+124,57,Female,Single,8979,21219,0.34,Unemployed,Education,0
+125,34,Female,Married,11805,35919,0.79,Employed,Business,0
+126,23,Female,Married,11832,10429,0.48,Employed,Education,0
+127,21,Female,Married,12408,47840,0.57,Employed,Home Improvement,0
+128,25,Male,Married,14504,45695,0.31,Employed,Car,0
+129,46,Male,Married,10569,40673,0.48,Self-employed,Personal,0
+130,34,Male,Married,14406,20218,0.6,Self-employed,Home Improvement,0
+131,59,Male,Married,6285,13452,0.33,Unemployed,Home Improvement,0
+132,47,Female,Single,8910,49980,0.59,Unemployed,Home Improvement,0
+133,29,Male,Single,10561,19951,0.86,Employed,Car,1
+134,35,Male,Single,4196,2307,0.36,Unemployed,Business,0
+135,35,Female,Single,5747,15852,0.76,Unemployed,Car,1
+136,46,Male,Married,10843,26232,0.55,Employed,Business,0
+137,62,Male,Married,7978,36428,0.69,Employed,Home Improvement,0
+138,33,Male,Married,7607,44171,0.46,Unemployed,Home Improvement,0
+139,52,Male,Single,2769,27485,0.4,Self-employed,Personal,0
+140,59,Male,Married,12613,11238,0.4,Unemployed,Business,0
+141,52,Male,Married,2780,39975,0.34,Unemployed,Home Improvement,0
+142,24,Female,Married,11908,2140,0.41,Self-employed,Education,0
+143,50,Female,Single,8303,25842,0.7,Self-employed,Personal,1
+144,57,Male,Married,5983,27421,0.83,Employed,Car,1
+145,43,Male,Single,11503,2708,0.79,Employed,Personal,1
+146,59,Female,Single,13551,4630,0.71,Unemployed,Education,1
+147,35,Male,Single,10714,20595,0.37,Self-employed,Business,0
+148,63,Male,Single,2521,11485,0.47,Employed,Car,0
+149,49,Male,Married,12512,29308,0.49,Unemployed,Car,0
+150,56,Female,Single,11127,45789,0.45,Self-employed,Business,0
+151,33,Male,Single,9569,27086,0.61,Unemployed,Personal,1
+152,52,Female,Married,12422,17859,0.62,Employed,Home Improvement,1
+153,27,Male,Married,14232,8684,0.51,Employed,Personal,0
+154,42,Female,Single,7784,26552,0.51,Self-employed,Education,0
+155,48,Female,Married,6583,2207,0.8,Unemployed,Home Improvement,1
+156,22,Male,Single,7946,47099,0.77,Self-employed,Personal,0
+157,62,Female,Single,6941,2960,0.48,Employed,Business,0
+158,26,Male,Single,8267,1557,0.85,Employed,Education,1
+159,48,Female,Single,9128,30689,0.87,Unemployed,Education,0
+160,48,Male,Married,13889,49651,0.5,Unemployed,Education,0
+161,64,Male,Single,13029,14893,0.51,Unemployed,Home Improvement,0
+162,64,Female,Married,14275,33272,0.6,Self-employed,Car,0
+163,40,Male,Married,4461,1882,0.86,Unemployed,Home Improvement,1
+164,50,Male,Married,13435,38529,0.83,Unemployed,Personal,0
+165,31,Female,Married,13551,39635,0.36,Employed,Car,0
+166,48,Male,Single,2685,30535,0.54,Employed,Personal,0
+167,45,Male,Married,4160,13869,0.63,Unemployed,Car,1
+168,59,Female,Single,9031,8166,0.6,Unemployed,Home Improvement,0
+169,53,Female,Married,14180,13982,0.42,Employed,Education,0
+170,21,Male,Married,14258,41697,0.82,Unemployed,Business,0
+171,47,Male,Single,11759,39115,0.71,Self-employed,Education,0
+172,33,Female,Single,7341,8269,0.8,Self-employed,Home Improvement,1
+173,61,Female,Single,2038,29064,0.82,Self-employed,Car,0
+174,23,Male,Married,12736,14527,0.75,Unemployed,Education,1
+175,59,Female,Married,6875,3454,0.56,Employed,Home Improvement,0
+176,26,Male,Single,3256,21878,0.67,Unemployed,Personal,0
+177,28,Male,Single,13182,13991,0.4,Unemployed,Business,0
+178,47,Male,Single,9697,3808,0.7,Employed,Education,1
+179,29,Male,Single,4196,40410,0.41,Employed,Car,0
+180,57,Male,Married,13660,37593,0.72,Employed,Personal,0
+181,53,Female,Single,9165,37304,0.44,Self-employed,Home Improvement,0
+182,62,Female,Single,12900,31386,0.37,Unemployed,Business,0
+183,64,Female,Single,2301,49077,0.4,Employed,Car,0
+184,44,Female,Single,9527,4802,0.3,Unemployed,Home Improvement,0
+185,35,Male,Married,8381,29753,0.73,Self-employed,Home Improvement,1
+186,52,Male,Single,2646,22083,0.74,Self-employed,Education,0
+187,52,Male,Married,14950,19354,0.61,Employed,Education,1
+188,44,Male,Single,11951,23190,0.4,Employed,Car,0
+189,61,Female,Single,14543,7142,0.35,Unemployed,Home Improvement,0
+190,32,Male,Married,10789,29398,0.31,Employed,Education,0
+191,59,Male,Single,10853,42862,0.4,Unemployed,Business,0
+192,22,Female,Married,6330,34132,0.83,Employed,Business,0
+193,23,Female,Married,11560,20503,0.44,Unemployed,Home Improvement,0
+194,57,Female,Single,12773,49456,0.51,Unemployed,Education,0
+195,37,Female,Married,9003,35631,0.36,Unemployed,Car,0
+196,22,Male,Married,14060,17499,0.43,Unemployed,Car,0
+197,22,Male,Married,5537,40852,0.61,Self-employed,Car,0
+198,48,Female,Married,14500,9016,0.66,Unemployed,Business,1
+199,43,Male,Married,6558,3384,0.45,Employed,Education,0
+200,57,Male,Married,8579,16072,0.33,Self-employed,Education,0
+201,52,Male,Married,10474,37703,0.53,Self-employed,Business,0
+202,53,Female,Married,13870,46895,0.44,Unemployed,Car,0
+203,21,Male,Single,11678,15482,0.43,Self-employed,Car,0
+204,39,Female,Single,6082,41510,0.88,Unemployed,Home Improvement,0
+205,22,Male,Married,6183,49933,0.67,Employed,Personal,0
+206,64,Male,Single,10652,22826,0.63,Unemployed,Education,1
+207,46,Male,Married,12517,3490,0.55,Self-employed,Education,0
+208,52,Female,Married,5754,47092,0.56,Employed,Education,0
+209,26,Male,Single,12660,26518,0.62,Unemployed,Personal,1
+210,52,Female,Married,3724,25045,0.72,Employed,Home Improvement,0
+211,24,Female,Married,3376,27910,0.72,Employed,Personal,0
+212,31,Female,Married,12935,25566,0.4,Self-employed,Car,0
+213,37,Male,Married,10706,34905,0.6,Employed,Car,0
+214,58,Male,Single,10894,28103,0.55,Self-employed,Education,0
+215,44,Male,Married,3653,37188,0.82,Employed,Business,0
+216,25,Male,Married,4066,6845,0.68,Unemployed,Education,1
+217,54,Female,Married,2022,22162,0.62,Employed,Business,0
+218,26,Female,Single,4460,37674,0.37,Unemployed,Personal,0
+219,42,Female,Married,7926,20337,0.66,Unemployed,Car,1
+220,31,Male,Single,8251,23313,0.37,Employed,Business,0
+221,36,Female,Single,11496,27943,0.5,Unemployed,Personal,0
+222,53,Male,Married,9295,13413,0.39,Employed,Car,0
+223,29,Female,Married,5300,1276,0.72,Employed,Business,1
+224,26,Male,Single,8279,18611,0.42,Unemployed,Education,0
+225,36,Male,Married,10553,40105,0.54,Unemployed,Education,0
+226,49,Female,Single,9353,12944,0.84,Self-employed,Education,1
+227,23,Female,Single,5727,16906,0.42,Unemployed,Personal,0
+228,40,Female,Married,8272,21536,0.6,Self-employed,Education,0
+229,56,Female,Married,7995,28810,0.55,Unemployed,Home Improvement,0
+230,39,Male,Single,11476,13306,0.31,Employed,Car,0
+231,46,Female,Single,2514,11503,0.78,Unemployed,Personal,0
+232,23,Female,Single,2448,20225,0.34,Employed,Education,0
+233,39,Female,Single,8019,37976,0.58,Employed,Car,0
+234,40,Male,Married,7343,12590,0.64,Employed,Business,1
+235,52,Male,Married,12047,11886,0.68,Self-employed,Education,1
+236,27,Female,Married,10033,13866,0.71,Unemployed,Car,1
+237,61,Male,Married,13754,2088,0.45,Employed,Home Improvement,0
+238,53,Female,Married,4520,4363,0.31,Employed,Business,0
+239,60,Male,Single,5081,33792,0.73,Self-employed,Home Improvement,0
+240,59,Male,Married,3428,10764,0.62,Unemployed,Car,0
+241,38,Male,Married,5967,21620,0.8,Unemployed,Home Improvement,1
+242,60,Male,Married,8445,43727,0.79,Self-employed,Car,0
+243,21,Female,Married,11114,13935,0.81,Self-employed,Car,1
+244,31,Female,Married,13329,9068,0.59,Unemployed,Home Improvement,0
+245,48,Female,Single,4159,8295,0.5,Self-employed,Car,0
+246,45,Male,Single,7132,42160,0.77,Unemployed,Education,0
+247,43,Female,Single,4547,12390,0.57,Unemployed,Car,0
+248,51,Female,Married,4979,42216,0.41,Employed,Personal,0
+249,50,Female,Single,12473,21131,0.81,Employed,Car,1
+250,62,Male,Single,4649,30218,0.83,Unemployed,Personal,0
+251,55,Male,Married,10505,11433,0.58,Unemployed,Car,0
+252,27,Male,Married,12805,16038,0.35,Unemployed,Car,0
+253,36,Female,Married,5083,29182,0.53,Unemployed,Home Improvement,0
+254,46,Female,Single,12448,12528,0.78,Unemployed,Education,1
+255,22,Female,Single,3037,22281,0.84,Unemployed,Education,0
+256,21,Male,Married,5489,49511,0.42,Self-employed,Business,0
+257,32,Male,Married,9604,9605,0.34,Unemployed,Home Improvement,0
+258,25,Female,Single,9544,35782,0.83,Self-employed,Home Improvement,0
+259,57,Male,Single,4634,2381,0.53,Self-employed,Education,0
+260,52,Male,Married,5983,2098,0.63,Unemployed,Home Improvement,1
+261,29,Male,Married,3778,20810,0.88,Unemployed,Education,0
+262,61,Male,Single,9902,25322,0.34,Self-employed,Home Improvement,0
+263,55,Female,Married,7110,42869,0.69,Self-employed,Car,0
+264,39,Male,Single,7189,33955,0.34,Unemployed,Education,0
+265,36,Male,Single,14087,45716,0.53,Unemployed,Education,0
+266,23,Male,Single,9378,11207,0.78,Self-employed,Personal,1
+267,40,Male,Single,3124,22793,0.56,Self-employed,Home Improvement,0
+268,44,Female,Married,2697,3092,0.9,Self-employed,Home Improvement,0
+269,53,Female,Married,4179,29220,0.64,Employed,Education,1
+270,44,Male,Single,11596,19514,0.49,Self-employed,Car,0
+271,31,Male,Single,7251,39010,0.43,Employed,Car,0
+272,28,Male,Single,11235,9549,0.51,Unemployed,Car,0
+273,56,Male,Single,3929,23031,0.52,Unemployed,Home Improvement,0
+274,58,Male,Single,3013,6185,0.34,Self-employed,Personal,0
+275,60,Male,Married,2226,16271,0.52,Unemployed,Education,0
+276,40,Female,Married,9321,6776,0.58,Unemployed,Business,0
+277,55,Male,Married,3828,13449,0.73,Unemployed,Personal,0
+278,45,Female,Married,9909,25297,0.69,Unemployed,Business,1
+279,55,Female,Single,7588,41591,0.73,Employed,Personal,0
+280,45,Male,Single,4023,16717,0.31,Employed,Car,0
+281,49,Female,Single,6966,41123,0.43,Self-employed,Home Improvement,0
+282,38,Female,Single,12644,40233,0.7,Self-employed,Business,0
+283,38,Female,Single,12277,46505,0.59,Self-employed,Personal,0
+284,22,Female,Married,7891,47092,0.3,Unemployed,Home Improvement,0
+285,55,Female,Single,14475,11350,0.78,Unemployed,Business,1
+286,36,Female,Married,3080,31622,0.76,Employed,Education,0
+287,61,Male,Married,7036,36323,0.63,Employed,Personal,0
+288,56,Female,Married,12512,3951,0.34,Self-employed,Education,0
+289,53,Female,Married,13382,18622,0.76,Employed,Car,1
+290,24,Female,Single,12822,5727,0.65,Employed,Education,1
+291,53,Male,Married,4563,39454,0.77,Employed,Education,0
+292,34,Female,Married,5292,37469,0.75,Employed,Personal,0
+293,41,Male,Married,14813,36548,0.78,Employed,Car,0
+294,40,Female,Single,5586,24782,0.61,Self-employed,Education,1
+295,28,Male,Single,6431,29454,0.38,Self-employed,Home Improvement,0
+296,27,Male,Single,8841,3368,0.7,Employed,Business,1
+297,23,Female,Married,8643,16592,0.67,Self-employed,Education,1
+298,37,Female,Married,13139,23173,0.75,Unemployed,Car,1
+299,53,Male,Single,5959,34204,0.4,Employed,Education,0
+300,32,Female,Married,13005,36596,0.42,Unemployed,Business,0
+301,42,Male,Single,12775,35324,0.83,Self-employed,Car,0
+302,42,Male,Single,2161,47132,0.75,Self-employed,Personal,0
+303,50,Male,Married,2593,24864,0.84,Unemployed,Car,0
+304,58,Male,Married,13451,48829,0.76,Self-employed,Personal,0
+305,58,Male,Married,14347,31750,0.66,Employed,Car,0
+306,28,Female,Married,13154,11576,0.69,Unemployed,Business,1
+307,47,Male,Single,14080,17566,0.83,Employed,Business,1
+308,47,Male,Single,5390,8190,0.65,Unemployed,Car,1
+309,54,Female,Single,7997,24071,0.68,Self-employed,Education,1
+310,41,Male,Single,8354,39333,0.39,Unemployed,Business,0
+311,50,Female,Single,14693,16369,0.58,Unemployed,Personal,0
+312,53,Female,Married,2663,25035,0.73,Employed,Personal,0
+313,48,Female,Single,11324,2589,0.46,Self-employed,Home Improvement,0
+314,53,Male,Single,2541,26235,0.42,Employed,Personal,0
+315,25,Male,Single,7433,1159,0.49,Self-employed,Home Improvement,0
+316,39,Male,Married,7093,13145,0.44,Employed,Car,0
+317,24,Female,Married,13166,16373,0.43,Unemployed,Car,0
+318,55,Male,Married,2867,32921,0.55,Employed,Car,0
+319,37,Female,Married,12258,40323,0.84,Self-employed,Education,0
+320,64,Male,Single,10623,17237,0.6,Self-employed,Education,0
+321,48,Female,Single,7469,42971,0.41,Unemployed,Home Improvement,0
+322,50,Male,Married,14470,9244,0.35,Self-employed,Personal,0
+323,49,Male,Married,8256,15743,0.72,Employed,Personal,1
+324,26,Male,Single,11398,32566,0.53,Unemployed,Car,0
+325,55,Female,Single,12720,47101,0.79,Self-employed,Business,0
+326,61,Female,Married,3169,47109,0.7,Self-employed,Education,0
+327,57,Male,Married,2830,19691,0.78,Employed,Education,0
+328,44,Male,Married,3651,34996,0.46,Employed,Car,0
+329,49,Female,Married,3136,6590,0.72,Unemployed,Education,0
+330,51,Female,Single,4810,6585,0.46,Self-employed,Car,0
+331,55,Female,Single,10667,10227,0.86,Employed,Home Improvement,1
+332,53,Male,Single,13002,29278,0.68,Unemployed,Personal,1
+333,41,Female,Married,11518,39814,0.49,Self-employed,Business,0
+334,52,Male,Married,3019,13237,0.46,Self-employed,Personal,0
+335,43,Female,Single,7237,16649,0.41,Unemployed,Personal,0
+336,53,Male,Single,12028,38713,0.72,Unemployed,Home Improvement,0
+337,23,Female,Single,14448,8927,0.43,Employed,Education,0
+338,38,Female,Single,12640,46409,0.66,Self-employed,Business,0
+339,45,Female,Married,14485,49766,0.46,Self-employed,Education,0
+340,62,Female,Single,3283,47154,0.7,Self-employed,Personal,0
+341,51,Female,Single,2659,8016,0.79,Unemployed,Car,0
+342,23,Male,Single,4010,15027,0.77,Employed,Personal,1
+343,60,Female,Single,10590,49688,0.76,Self-employed,Education,0
+344,44,Female,Single,3733,25142,0.41,Unemployed,Personal,0
+345,52,Female,Single,4125,47520,0.35,Self-employed,Car,0
+346,42,Male,Single,4171,24545,0.72,Employed,Home Improvement,1
+347,43,Female,Married,10266,32897,0.52,Self-employed,Education,0
+348,22,Male,Married,14889,4167,0.56,Employed,Personal,0
+349,47,Female,Married,5471,45757,0.32,Employed,Education,0
+350,62,Female,Married,11028,27917,0.46,Self-employed,Home Improvement,0
+351,22,Male,Single,7624,23736,0.32,Self-employed,Personal,0
+352,46,Female,Married,10691,28990,0.83,Employed,Personal,1
+353,37,Male,Married,10329,15087,0.45,Unemployed,Education,0
+354,60,Male,Single,4097,23440,0.63,Employed,Education,1
+355,53,Female,Single,7068,36205,0.32,Self-employed,Car,0
+356,29,Male,Married,13888,16275,0.7,Self-employed,Home Improvement,1
+357,63,Female,Married,12077,6276,0.49,Unemployed,Car,0
+358,59,Female,Single,8397,42627,0.84,Employed,Personal,0
+359,49,Male,Married,4757,41586,0.83,Employed,Education,0
+360,62,Male,Single,5920,38496,0.5,Employed,Personal,0
+361,46,Male,Single,10186,20008,0.84,Self-employed,Personal,1
+362,55,Male,Single,3900,6738,0.9,Employed,Business,0
+363,45,Female,Single,4610,33402,0.8,Unemployed,Business,0
+364,44,Female,Married,8900,6793,0.81,Self-employed,Personal,1
+365,33,Male,Single,14178,38291,0.45,Self-employed,Education,0
+366,27,Female,Single,3449,6571,0.65,Employed,Personal,0
+367,56,Female,Married,10738,32331,0.34,Unemployed,Business,0
+368,40,Female,Single,7017,17209,0.36,Self-employed,Education,0
+369,21,Female,Married,14868,49014,0.9,Self-employed,Personal,0
+370,28,Male,Married,9999,26394,0.5,Employed,Home Improvement,0
+371,36,Male,Married,8052,44148,0.75,Employed,Home Improvement,0
+372,34,Female,Single,12195,26682,0.78,Unemployed,Personal,1
+373,32,Male,Married,4096,3224,0.81,Employed,Education,1
+374,43,Male,Married,10895,42157,0.9,Unemployed,Personal,0
+375,35,Male,Single,8404,49695,0.44,Self-employed,Personal,0
+376,48,Female,Married,12595,45452,0.32,Unemployed,Business,0
+377,54,Female,Married,11817,44408,0.55,Unemployed,Home Improvement,0
+378,22,Female,Married,5331,33441,0.38,Unemployed,Business,0
+379,52,Male,Married,14925,42430,0.31,Self-employed,Business,0
+380,43,Female,Married,9462,40129,0.52,Employed,Personal,0
+381,42,Female,Single,7105,35716,0.77,Self-employed,Business,0
+382,45,Male,Married,4978,45859,0.64,Employed,Home Improvement,0
+383,42,Female,Married,14928,27586,0.49,Unemployed,Business,0
+384,42,Female,Single,4839,45760,0.69,Unemployed,Home Improvement,0
+385,62,Male,Single,5384,24478,0.44,Unemployed,Business,0
+386,26,Male,Single,12851,7318,0.31,Unemployed,Home Improvement,0
+387,35,Male,Married,12053,29694,0.76,Unemployed,Business,1
+388,63,Female,Single,13048,21180,0.67,Employed,Business,1
+389,57,Female,Married,2685,13180,0.76,Employed,Education,0
+390,53,Female,Married,9531,34002,0.32,Unemployed,Home Improvement,0
+391,28,Male,Single,6283,16372,0.8,Self-employed,Home Improvement,1
+392,64,Male,Single,9736,30796,0.67,Self-employed,Home Improvement,0
+393,64,Female,Married,9710,25427,0.64,Unemployed,Car,1
+394,25,Female,Single,3619,34290,0.67,Employed,Business,0
+395,59,Male,Married,14835,29099,0.82,Self-employed,Home Improvement,1
+396,24,Male,Single,8868,46486,0.65,Self-employed,Car,0
+397,26,Male,Single,3431,10821,0.65,Self-employed,Education,0
+398,52,Male,Single,11067,6832,0.89,Unemployed,Home Improvement,1
+399,50,Female,Married,6713,13820,0.75,Self-employed,Home Improvement,1
+400,55,Male,Single,12653,17211,0.57,Self-employed,Car,0
+401,60,Female,Married,11557,40890,0.72,Self-employed,Business,0
+402,36,Female,Married,11435,6842,0.53,Self-employed,Education,0
+403,33,Female,Married,6998,2316,0.44,Employed,Home Improvement,0
+404,62,Male,Married,2162,46968,0.66,Unemployed,Business,0
+405,50,Male,Single,3974,18508,0.86,Unemployed,Education,0
+406,39,Male,Married,5291,23005,0.86,Employed,Personal,1
+407,37,Male,Married,10461,16206,0.51,Employed,Personal,0
+408,39,Female,Single,2631,19971,0.62,Unemployed,Education,0
+409,48,Male,Married,2905,26599,0.43,Self-employed,Car,0
+410,46,Male,Single,13663,23056,0.9,Self-employed,Education,1
+411,57,Female,Married,13445,2378,0.89,Unemployed,Education,1
+412,46,Male,Single,4014,2519,0.69,Self-employed,Car,1
+413,43,Female,Married,11833,23161,0.78,Employed,Car,1
+414,29,Female,Single,9896,41703,0.73,Self-employed,Business,0
+415,32,Female,Married,2204,39861,0.66,Self-employed,Business,0
+416,21,Female,Married,2581,6355,0.33,Self-employed,Car,0
+417,21,Female,Single,7675,10083,0.57,Unemployed,Personal,0
+418,54,Female,Single,11032,39342,0.7,Employed,Personal,0
+419,52,Female,Single,7347,21456,0.71,Self-employed,Education,1
+420,45,Female,Single,11911,14324,0.52,Unemployed,Home Improvement,0
+421,60,Male,Married,4643,3257,0.87,Self-employed,Education,1
+422,21,Male,Married,10017,28364,0.4,Employed,Education,0
+423,36,Male,Single,4297,25972,0.6,Self-employed,Home Improvement,0
+424,59,Male,Married,2874,47179,0.71,Employed,Car,0
+425,25,Female,Single,7560,27654,0.72,Self-employed,Personal,1
+426,42,Male,Single,2689,16233,0.69,Employed,Education,0
+427,49,Female,Married,6000,16887,0.47,Self-employed,Home Improvement,0
+428,23,Male,Married,13333,30320,0.39,Employed,Business,0
+429,32,Male,Married,11614,21808,0.68,Self-employed,Education,1
+430,46,Male,Married,2671,31154,0.66,Self-employed,Personal,0
+431,36,Female,Married,9927,35773,0.41,Unemployed,Car,0
+432,57,Male,Married,3171,28747,0.72,Unemployed,Education,0
+433,42,Female,Married,7591,11860,0.57,Employed,Education,0
+434,49,Female,Single,13918,43838,0.7,Self-employed,Home Improvement,0
+435,34,Male,Single,11135,43156,0.8,Employed,Business,0
+436,48,Male,Single,8342,19156,0.4,Unemployed,Business,0
+437,25,Male,Single,3449,21360,0.31,Employed,Car,0
+438,50,Female,Single,13929,19135,0.77,Employed,Personal,1
+439,25,Male,Married,4539,26351,0.67,Unemployed,Car,1
+440,32,Female,Single,5959,31499,0.72,Self-employed,Education,0
+441,36,Female,Single,8285,48377,0.8,Employed,Education,0
+442,46,Male,Single,7432,24554,0.78,Unemployed,Business,1
+443,46,Male,Single,6260,20604,0.88,Self-employed,Personal,1
+444,41,Female,Single,4361,17923,0.62,Unemployed,Home Improvement,1
+445,59,Female,Single,8164,48591,0.59,Employed,Personal,0
+446,56,Female,Single,13844,9547,0.54,Self-employed,Education,0
+447,53,Male,Married,5670,45283,0.39,Self-employed,Home Improvement,0
+448,50,Female,Married,3753,34002,0.64,Unemployed,Personal,0
+449,57,Male,Single,10100,15562,0.47,Unemployed,Personal,0
+450,43,Female,Married,12544,8480,0.85,Unemployed,Home Improvement,1
+451,30,Female,Married,3938,27672,0.65,Self-employed,Education,0
+452,25,Male,Married,10562,5213,0.66,Self-employed,Personal,1
+453,56,Female,Married,7976,11293,0.51,Employed,Home Improvement,0
+454,54,Male,Single,14671,35441,0.33,Self-employed,Education,0
+455,51,Male,Married,12123,3100,0.32,Employed,Home Improvement,0
+456,30,Female,Married,8588,45617,0.55,Unemployed,Home Improvement,0
+457,39,Male,Married,10616,29172,0.35,Unemployed,Personal,0
+458,52,Male,Single,8304,21132,0.66,Self-employed,Education,1
+459,21,Female,Single,9345,19199,0.83,Unemployed,Personal,1
+460,25,Male,Single,14916,37609,0.83,Unemployed,Car,0
+461,24,Male,Single,9875,43965,0.7,Self-employed,Car,0
+462,36,Male,Single,11086,9016,0.43,Employed,Education,0
+463,44,Female,Single,8633,40779,0.82,Self-employed,Home Improvement,0
+464,36,Male,Single,2597,38261,0.83,Employed,Personal,0
+465,22,Female,Married,5062,32881,0.42,Self-employed,Personal,0
+466,48,Female,Married,4336,18058,0.74,Self-employed,Education,1
+467,52,Male,Married,14880,25472,0.47,Unemployed,Education,0
+468,47,Male,Single,11879,42346,0.78,Self-employed,Car,0
+469,40,Male,Single,2572,35926,0.9,Self-employed,Business,0
+470,44,Female,Single,9521,35832,0.32,Employed,Education,0
+471,32,Male,Single,8171,37021,0.84,Unemployed,Business,0
+472,55,Male,Single,9097,25087,0.67,Employed,Education,1
+473,53,Male,Married,4090,13828,0.88,Employed,Home Improvement,1
+474,53,Male,Married,8566,32128,0.58,Unemployed,Home Improvement,0
+475,63,Male,Single,13861,2401,0.81,Unemployed,Car,1
+476,57,Female,Single,14464,20643,0.34,Unemployed,Car,0
+477,32,Female,Single,6624,16193,0.5,Self-employed,Business,0
+478,23,Male,Single,3633,27853,0.34,Unemployed,Education,0
+479,21,Male,Married,3517,45864,0.89,Unemployed,Personal,0
+480,53,Male,Single,14485,21307,0.79,Unemployed,Car,1
+481,60,Male,Single,12849,37982,0.81,Employed,Personal,0
+482,30,Female,Single,5648,20611,0.86,Employed,Personal,1
+483,63,Male,Single,13780,44791,0.35,Self-employed,Education,0
+484,64,Female,Married,3537,12950,0.53,Employed,Business,0
+485,49,Female,Single,5137,11704,0.34,Self-employed,Education,0
+486,33,Male,Single,8985,44111,0.43,Employed,Car,0
+487,32,Female,Married,2097,12867,0.44,Unemployed,Personal,0
+488,51,Female,Married,13407,3745,0.58,Employed,Education,0
+489,22,Female,Married,14722,4866,0.46,Self-employed,Education,0
+490,55,Female,Single,14924,33245,0.36,Employed,Education,0
+491,43,Male,Single,5750,45724,0.4,Unemployed,Car,0
+492,37,Male,Married,13349,6818,0.39,Self-employed,Business,0
+493,46,Female,Married,14875,49861,0.88,Unemployed,Education,0
+494,28,Male,Married,10535,31116,0.76,Unemployed,Car,0
+495,49,Male,Married,10174,16493,0.88,Self-employed,Personal,1
+496,46,Male,Married,10103,29038,0.56,Unemployed,Home Improvement,0
+497,30,Male,Married,7413,21447,0.47,Unemployed,Car,0
+498,46,Male,Single,6666,31431,0.78,Employed,Home Improvement,0
+499,54,Female,Single,2610,18908,0.5,Unemployed,Education,0
+500,61,Male,Single,3727,30336,0.48,Unemployed,Education,0
+501,27,Male,Married,12482,41992,0.44,Unemployed,Car,0
+502,24,Male,Married,3854,5025,0.38,Unemployed,Home Improvement,0
+503,31,Male,Married,12800,21093,0.45,Self-employed,Education,0
+504,49,Female,Married,7055,7155,0.51,Employed,Personal,0
+505,56,Female,Married,12271,47607,0.7,Unemployed,Business,0
+506,45,Female,Married,4324,34487,0.34,Unemployed,Business,0
+507,41,Female,Single,14819,48658,0.43,Self-employed,Education,0
+508,56,Male,Single,11369,21963,0.79,Unemployed,Home Improvement,1
+509,30,Female,Married,11283,21936,0.39,Self-employed,Education,0
+510,57,Male,Single,7774,5426,0.51,Employed,Home Improvement,0
+511,29,Male,Married,8519,24303,0.82,Employed,Personal,1
+512,44,Male,Single,12983,46280,0.39,Unemployed,Home Improvement,0
+513,55,Male,Married,3749,28606,0.35,Unemployed,Education,0
+514,55,Male,Married,12867,48832,0.59,Unemployed,Personal,0
+515,56,Female,Single,2781,29151,0.48,Self-employed,Car,0
+516,38,Female,Single,9548,14767,0.64,Unemployed,Business,1
+517,59,Female,Married,13240,12308,0.78,Unemployed,Education,1
+518,52,Female,Married,8823,45245,0.38,Employed,Education,0
+519,44,Male,Single,4105,46671,0.65,Unemployed,Education,0
+520,43,Female,Single,5867,25770,0.6,Employed,Personal,0
+521,52,Male,Married,9193,29572,0.39,Unemployed,Car,0
+522,57,Female,Single,6976,42448,0.67,Employed,Home Improvement,0
+523,32,Male,Married,14734,3204,0.46,Unemployed,Car,0
+524,33,Male,Married,4113,28233,0.59,Employed,Personal,0
+525,43,Female,Married,7879,22729,0.35,Self-employed,Education,0
+526,45,Male,Married,5970,32131,0.58,Employed,Business,0
+527,55,Male,Single,12183,34870,0.48,Employed,Education,0
+528,61,Female,Single,11259,39011,0.79,Employed,Home Improvement,0
+529,50,Male,Single,9264,40382,0.33,Unemployed,Business,0
+530,37,Female,Single,3577,42475,0.55,Unemployed,Education,0
+531,40,Female,Single,11203,47681,0.58,Unemployed,Business,0
+532,45,Female,Single,4274,22607,0.74,Self-employed,Car,1
+533,42,Male,Single,6869,25968,0.64,Self-employed,Personal,1
+534,33,Male,Married,12006,34398,0.7,Employed,Education,0
+535,39,Male,Single,8744,12908,0.77,Self-employed,Home Improvement,1
+536,56,Female,Single,4426,27423,0.82,Employed,Car,1
+537,32,Male,Married,7546,44615,0.49,Employed,Education,0
+538,61,Female,Single,8852,10171,0.62,Employed,Car,1
+539,39,Female,Single,14594,13721,0.8,Self-employed,Home Improvement,1
+540,32,Male,Married,4551,17616,0.89,Unemployed,Education,1
+541,29,Female,Single,8411,43512,0.83,Self-employed,Home Improvement,0
+542,27,Male,Single,13849,39458,0.52,Employed,Business,0
+543,48,Male,Single,2007,47169,0.42,Employed,Home Improvement,0
+544,34,Male,Married,10087,8659,0.59,Self-employed,Business,0
+545,51,Male,Single,4555,44369,0.74,Employed,Education,0
+546,39,Male,Single,2475,12704,0.6,Employed,Business,0
+547,36,Female,Married,7416,33793,0.59,Self-employed,Education,0
+548,25,Female,Single,12403,49152,0.8,Self-employed,Education,0
+549,55,Female,Married,10676,47473,0.52,Self-employed,Personal,0
+550,32,Male,Married,9239,32226,0.82,Employed,Education,0
+551,45,Male,Single,8710,24852,0.54,Employed,Business,0
+552,41,Male,Married,7000,33082,0.5,Unemployed,Personal,0
+553,56,Female,Married,6654,23794,0.57,Unemployed,Personal,0
+554,43,Male,Single,10078,42420,0.76,Self-employed,Education,0
+555,36,Female,Married,8063,14379,0.38,Unemployed,Home Improvement,0
+556,59,Female,Married,4285,8006,0.42,Employed,Home Improvement,0
+557,62,Male,Single,7223,9682,0.87,Unemployed,Personal,1
+558,59,Male,Single,8971,34840,0.41,Employed,Education,0
+559,34,Female,Single,14755,33430,0.64,Self-employed,Home Improvement,0
+560,51,Male,Married,5525,24091,0.65,Self-employed,Education,1
+561,25,Female,Single,13531,33983,0.59,Employed,Education,0
+562,55,Male,Married,4822,24989,0.69,Unemployed,Personal,1
+563,43,Male,Married,6943,10915,0.44,Self-employed,Personal,0
+564,49,Female,Married,8530,43552,0.63,Self-employed,Car,0
+565,63,Male,Married,13116,19990,0.52,Unemployed,Home Improvement,0
+566,31,Female,Married,2258,25734,0.7,Unemployed,Home Improvement,0
+567,38,Male,Married,2282,15824,0.38,Employed,Home Improvement,0
+568,32,Female,Married,3898,37081,0.64,Unemployed,Business,0
+569,29,Female,Single,6135,12033,0.41,Unemployed,Education,0
+570,30,Male,Single,8629,43736,0.47,Unemployed,Personal,0
+571,64,Female,Married,13168,17241,0.43,Employed,Home Improvement,0
+572,37,Male,Married,12459,6939,0.41,Employed,Car,0
+573,58,Male,Single,5200,48464,0.8,Self-employed,Home Improvement,0
+574,27,Male,Married,7110,48562,0.47,Employed,Education,0
+575,33,Female,Single,9167,36063,0.86,Self-employed,Education,0
+576,60,Female,Single,2612,35464,0.88,Unemployed,Personal,0
+577,62,Male,Single,2687,12185,0.64,Self-employed,Business,0
+578,29,Male,Married,5690,28045,0.39,Self-employed,Personal,0
+579,47,Female,Married,10804,45769,0.52,Unemployed,Home Improvement,0
+580,22,Male,Single,4307,48118,0.78,Self-employed,Car,0
+581,25,Male,Single,9133,20167,0.52,Employed,Personal,0
+582,49,Female,Single,13205,37412,0.35,Employed,Business,0
+583,57,Male,Single,8509,22625,0.63,Employed,Personal,1
+584,58,Female,Single,11973,40188,0.81,Employed,Education,0
+585,39,Male,Married,7906,28076,0.78,Self-employed,Home Improvement,1
+586,28,Female,Single,4591,45605,0.41,Self-employed,Home Improvement,0
+587,21,Male,Married,12888,20029,0.7,Unemployed,Home Improvement,1
+588,42,Male,Single,14150,23973,0.43,Self-employed,Home Improvement,0
+589,37,Female,Married,9183,40121,0.43,Self-employed,Home Improvement,0
+590,27,Male,Married,7248,32433,0.82,Self-employed,Home Improvement,0
+591,45,Female,Married,10766,44309,0.45,Unemployed,Car,0
+592,24,Male,Married,12102,2932,0.46,Employed,Business,0
+593,56,Female,Married,7108,45254,0.3,Self-employed,Home Improvement,0
+594,26,Female,Married,5604,2757,0.82,Unemployed,Business,1
+595,51,Female,Single,2669,31722,0.78,Unemployed,Home Improvement,0
+596,39,Female,Married,6364,38853,0.68,Unemployed,Personal,0
+597,64,Male,Single,9329,39405,0.75,Employed,Home Improvement,0
+598,59,Male,Married,3283,2116,0.39,Self-employed,Education,0
+599,47,Female,Married,2923,44527,0.57,Unemployed,Car,0
+600,30,Female,Single,3125,12691,0.51,Employed,Personal,0
+601,46,Female,Married,3529,1492,0.36,Unemployed,Personal,0
+602,39,Male,Single,11786,28882,0.59,Unemployed,Education,0
+603,59,Male,Single,10438,9811,0.85,Unemployed,Home Improvement,1
+604,23,Male,Single,5711,28808,0.32,Unemployed,Car,0
+605,33,Male,Single,10004,25272,0.47,Unemployed,Personal,0
+606,48,Female,Married,11752,29399,0.42,Employed,Car,0
+607,40,Female,Married,8274,7474,0.44,Self-employed,Personal,0
+608,48,Female,Single,12592,27956,0.85,Self-employed,Home Improvement,1
+609,28,Male,Married,12435,48153,0.58,Self-employed,Personal,0
+610,61,Male,Married,5864,43506,0.58,Self-employed,Personal,0
+611,59,Male,Single,12131,14979,0.76,Employed,Business,1
+612,21,Female,Married,9833,45523,0.39,Employed,Home Improvement,0
+613,23,Female,Single,13261,43565,0.59,Employed,Education,0
+614,33,Male,Single,8788,29328,0.56,Unemployed,Education,0
+615,48,Female,Married,2226,48375,0.66,Unemployed,Home Improvement,0
+616,45,Male,Married,13739,13867,0.9,Unemployed,Education,1
+617,53,Male,Married,2264,26851,0.76,Self-employed,Home Improvement,0
+618,58,Female,Single,11587,32279,0.54,Unemployed,Education,0
+619,26,Male,Single,13749,31527,0.8,Self-employed,Business,0
+620,64,Female,Married,2645,8866,0.4,Unemployed,Education,0
+621,52,Male,Married,9544,16449,0.32,Self-employed,Personal,0
+622,41,Female,Married,7569,11685,0.42,Unemployed,Home Improvement,0
+623,36,Female,Married,4990,24544,0.5,Unemployed,Car,0
+624,41,Female,Single,12091,6451,0.61,Employed,Car,1
+625,31,Male,Married,4504,22642,0.67,Unemployed,Home Improvement,1
+626,57,Male,Single,12964,42316,0.85,Unemployed,Business,0
+627,56,Female,Single,11346,40954,0.61,Employed,Education,0
+628,55,Female,Married,2587,39870,0.6,Self-employed,Business,0
+629,39,Male,Married,14763,32030,0.33,Employed,Car,0
+630,40,Male,Married,12013,31873,0.32,Employed,Home Improvement,0
+631,38,Male,Single,11177,1619,0.63,Self-employed,Home Improvement,1
+632,61,Female,Married,6079,34650,0.56,Unemployed,Business,0
+633,34,Male,Married,5348,26372,0.8,Self-employed,Business,1
+634,35,Male,Single,8299,4642,0.4,Unemployed,Education,0
+635,51,Female,Married,5831,29001,0.31,Unemployed,Personal,0
+636,21,Male,Single,11433,35064,0.57,Self-employed,Personal,0
+637,23,Male,Married,10381,30290,0.44,Employed,Education,0
+638,36,Male,Single,11172,15122,0.33,Self-employed,Personal,0
+639,43,Female,Married,11890,25820,0.73,Unemployed,Car,1
+640,31,Female,Married,3715,3895,0.37,Self-employed,Personal,0
+641,32,Female,Single,12785,6366,0.66,Self-employed,Education,1
+642,30,Female,Single,14328,9711,0.47,Unemployed,Personal,0
+643,52,Female,Married,8450,20596,0.4,Employed,Home Improvement,0
+644,36,Female,Single,14625,19793,0.53,Self-employed,Business,0
+645,28,Female,Single,7433,9199,0.78,Unemployed,Car,1
+646,58,Male,Single,3098,11717,0.54,Unemployed,Home Improvement,0
+647,32,Male,Single,9096,37191,0.75,Self-employed,Home Improvement,0
+648,44,Female,Married,4326,11211,0.38,Employed,Education,0
+649,48,Male,Married,13439,46550,0.76,Self-employed,Business,0
+650,28,Male,Single,11087,24360,0.44,Employed,Business,0
+651,48,Female,Single,8416,22542,0.71,Employed,Car,1
+652,56,Male,Single,8980,32312,0.64,Employed,Education,0
+653,46,Male,Single,8763,46242,0.86,Employed,Car,0
+654,28,Male,Married,3674,37435,0.53,Self-employed,Personal,0
+655,48,Male,Married,13101,29247,0.34,Unemployed,Home Improvement,0
+656,48,Male,Single,9950,23357,0.31,Unemployed,Car,0
+657,57,Female,Single,11122,42045,0.8,Unemployed,Home Improvement,0
+658,61,Female,Single,14576,28691,0.61,Unemployed,Education,1
+659,56,Female,Married,10915,13424,0.77,Unemployed,Personal,1
+660,47,Male,Single,13132,19852,0.44,Unemployed,Education,0
+661,37,Female,Married,8049,23601,0.51,Self-employed,Personal,0
+662,29,Male,Single,3089,19020,0.32,Employed,Personal,0
+663,53,Male,Married,6578,9155,0.88,Unemployed,Home Improvement,1
+664,40,Male,Single,11127,4583,0.7,Self-employed,Education,1
+665,33,Male,Married,12487,16515,0.86,Unemployed,Education,1
+666,48,Female,Single,2155,37777,0.46,Unemployed,Car,0
+667,49,Female,Single,11262,20710,0.67,Employed,Education,1
+668,33,Male,Single,3958,44178,0.71,Employed,Car,0
+669,55,Female,Married,12693,25532,0.49,Employed,Business,0
+670,26,Male,Single,8344,19601,0.81,Unemployed,Business,1
+671,38,Female,Married,7779,5967,0.87,Unemployed,Business,1
+672,25,Female,Married,14411,19753,0.83,Unemployed,Education,1
+673,45,Male,Single,8144,21022,0.74,Employed,Education,1
+674,22,Female,Single,7063,44463,0.47,Self-employed,Car,0
+675,30,Male,Single,5830,10135,0.47,Unemployed,Personal,0
+676,50,Female,Married,11046,6722,0.88,Unemployed,Car,1
+677,25,Male,Single,10831,28413,0.31,Unemployed,Business,0
+678,53,Male,Married,12430,28236,0.73,Self-employed,Car,1
+679,21,Female,Married,11794,16514,0.72,Unemployed,Personal,1
+680,38,Female,Single,8659,44896,0.67,Self-employed,Education,0
+681,52,Male,Single,2441,38212,0.89,Unemployed,Car,0
+682,31,Female,Single,8040,41386,0.49,Self-employed,Business,0
+683,41,Female,Single,7925,21331,0.5,Unemployed,Business,0
+684,46,Male,Single,9358,19060,0.35,Employed,Education,0
+685,45,Male,Single,6628,2196,0.57,Employed,Car,0
+686,42,Female,Married,8370,13297,0.46,Employed,Personal,0
+687,47,Male,Married,11528,3787,0.51,Employed,Education,0
+688,33,Male,Married,13892,24816,0.8,Unemployed,Car,1
+689,53,Male,Single,2948,41695,0.86,Employed,Home Improvement,0
+690,54,Female,Married,13565,20702,0.41,Self-employed,Business,0
+691,61,Female,Married,10179,26242,0.52,Employed,Personal,0
+692,55,Male,Married,8115,3176,0.86,Employed,Personal,1
+693,21,Female,Married,2459,21127,0.34,Employed,Personal,0
+694,41,Male,Married,9568,42560,0.36,Unemployed,Business,0
+695,26,Female,Single,6646,28228,0.4,Employed,Car,0
+696,48,Male,Single,2392,21208,0.66,Self-employed,Education,0
+697,37,Male,Married,14130,29482,0.39,Employed,Car,0
+698,25,Female,Married,3787,10171,0.88,Employed,Education,0
+699,51,Male,Married,9374,36219,0.57,Employed,Personal,0
+700,25,Female,Single,12449,34396,0.6,Self-employed,Car,0
+701,58,Female,Single,3138,43589,0.45,Employed,Personal,0
+702,23,Male,Married,14000,41546,0.58,Self-employed,Home Improvement,0
+703,43,Male,Single,6741,4696,0.7,Self-employed,Personal,1
+704,57,Female,Single,9418,21058,0.75,Employed,Personal,1
+705,57,Male,Married,8362,21313,0.75,Self-employed,Education,1
+706,30,Male,Single,4454,20149,0.65,Unemployed,Home Improvement,1
+707,30,Male,Single,11658,46740,0.84,Employed,Personal,0
+708,39,Male,Married,5674,42075,0.79,Employed,Personal,0
+709,37,Male,Single,3377,5956,0.75,Self-employed,Home Improvement,0
+710,41,Female,Single,8701,11195,0.33,Self-employed,Home Improvement,0
+711,34,Female,Married,4597,18076,0.3,Employed,Car,0
+712,29,Male,Single,2141,2105,0.43,Unemployed,Education,0
+713,21,Male,Single,4659,16417,0.7,Self-employed,Home Improvement,1
+714,33,Male,Married,6596,25729,0.55,Self-employed,Home Improvement,0
+715,24,Female,Married,11031,47956,0.54,Unemployed,Business,0
+716,21,Male,Married,13810,31099,0.83,Unemployed,Home Improvement,0
+717,60,Female,Single,7661,33598,0.84,Employed,Education,0
+718,52,Female,Married,8142,30961,0.85,Unemployed,Personal,0
+719,54,Female,Single,14109,13602,0.49,Employed,Personal,0
+720,48,Male,Married,7626,10256,0.71,Unemployed,Personal,1
+721,51,Female,Single,10787,21584,0.46,Self-employed,Personal,0
+722,28,Male,Married,12096,47980,0.41,Employed,Business,0
+723,59,Female,Married,10472,35681,0.41,Employed,Home Improvement,0
+724,46,Male,Married,2423,26792,0.51,Employed,Personal,0
+725,54,Female,Married,8999,22904,0.56,Unemployed,Car,0
+726,23,Male,Single,14557,44361,0.8,Self-employed,Personal,0
+727,32,Female,Married,6249,35540,0.37,Employed,Home Improvement,0
+728,21,Male,Married,3750,27536,0.74,Employed,Personal,0
+729,64,Male,Single,6757,20164,0.62,Employed,Business,1
+730,25,Male,Married,3967,13996,0.47,Employed,Education,0
+731,50,Male,Single,6088,3871,0.6,Self-employed,Education,0
+732,50,Female,Married,6178,47002,0.48,Unemployed,Home Improvement,0
+733,37,Female,Married,9789,23626,0.66,Self-employed,Education,1
+734,43,Male,Married,4946,11521,0.56,Employed,Education,0
+735,35,Female,Single,11641,44410,0.4,Self-employed,Car,0
+736,57,Male,Married,7394,2132,0.37,Employed,Home Improvement,0
+737,41,Male,Married,9880,34467,0.63,Unemployed,Home Improvement,0
+738,34,Female,Married,12523,15534,0.84,Unemployed,Education,1
+739,22,Male,Single,7075,24854,0.51,Unemployed,Education,0
+740,31,Male,Single,12412,43998,0.74,Employed,Education,0
+741,59,Female,Married,13981,40065,0.7,Self-employed,Business,0
+742,58,Male,Single,9230,46607,0.86,Unemployed,Personal,0
+743,54,Male,Married,13002,8812,0.79,Employed,Business,1
+744,58,Male,Married,14920,5557,0.64,Employed,Home Improvement,1
+745,54,Male,Married,3531,3179,0.69,Self-employed,Car,0
+746,38,Female,Married,4990,44798,0.84,Unemployed,Personal,0
+747,50,Female,Married,9155,10065,0.54,Employed,Car,0
+748,35,Female,Married,6493,9275,0.5,Self-employed,Home Improvement,0
+749,47,Male,Married,11335,48857,0.31,Unemployed,Home Improvement,0
+750,54,Male,Single,2933,36948,0.8,Self-employed,Car,0
+751,58,Female,Single,3460,21700,0.78,Self-employed,Car,0
+752,53,Male,Single,4723,40464,0.36,Employed,Car,0
+753,44,Male,Single,12704,43351,0.65,Employed,Home Improvement,0
+754,35,Male,Single,2285,28794,0.58,Employed,Education,0
+755,50,Male,Single,2264,29783,0.37,Self-employed,Car,0
+756,62,Female,Single,12559,17998,0.89,Employed,Personal,1
+757,37,Female,Married,8816,14869,0.43,Self-employed,Home Improvement,0
+758,25,Female,Married,13639,45525,0.34,Self-employed,Business,0
+759,49,Male,Married,3762,29152,0.66,Employed,Business,0
+760,24,Female,Married,13240,21954,0.74,Unemployed,Personal,1
+761,30,Female,Single,12573,32555,0.32,Unemployed,Education,0
+762,37,Male,Single,12461,17654,0.7,Unemployed,Car,1
+763,30,Male,Married,2040,46026,0.62,Self-employed,Home Improvement,0
+764,37,Female,Married,7827,36236,0.36,Self-employed,Car,0
+765,40,Female,Single,10259,47976,0.4,Self-employed,Home Improvement,0
+766,44,Female,Married,2987,16042,0.64,Employed,Business,0
+767,25,Female,Married,9804,26966,0.48,Self-employed,Car,0
+768,54,Male,Married,9789,49407,0.86,Employed,Personal,0
+769,26,Female,Married,7717,45314,0.79,Employed,Education,0
+770,22,Female,Single,14200,46095,0.89,Unemployed,Personal,0
+771,33,Male,Married,5198,15270,0.46,Unemployed,Education,0
+772,63,Female,Married,7374,31908,0.88,Unemployed,Car,0
+773,63,Male,Single,6790,16523,0.56,Employed,Car,0
+774,31,Male,Single,9183,48068,0.51,Employed,Education,0
+775,43,Male,Married,4524,20991,0.33,Employed,Business,0
+776,36,Female,Single,11277,11775,0.33,Self-employed,Home Improvement,0
+777,51,Female,Married,4479,13265,0.72,Employed,Personal,1
+778,31,Male,Married,11885,20459,0.57,Unemployed,Personal,0
+779,36,Female,Single,12507,17673,0.44,Unemployed,Personal,0
+780,28,Female,Married,7154,28056,0.67,Employed,Car,1
+781,24,Male,Married,2778,7614,0.45,Employed,Personal,0
+782,60,Male,Married,14781,37020,0.65,Unemployed,Home Improvement,0
+783,24,Female,Married,11777,8415,0.52,Employed,Home Improvement,0
+784,45,Male,Single,3492,24155,0.79,Unemployed,Education,0
+785,23,Female,Single,2660,44884,0.79,Self-employed,Car,0
+786,52,Female,Married,3348,17964,0.59,Unemployed,Home Improvement,0
+787,23,Female,Single,11491,38726,0.51,Self-employed,Business,0
+788,47,Female,Married,14132,38044,0.52,Employed,Car,0
+789,49,Male,Married,12178,38544,0.78,Employed,Car,0
+790,52,Male,Married,9851,33252,0.5,Self-employed,Home Improvement,0
+791,39,Male,Married,9156,4832,0.43,Employed,Business,0
+792,41,Male,Married,4044,26275,0.35,Self-employed,Education,0
+793,25,Female,Single,9368,15901,0.58,Employed,Home Improvement,0
+794,38,Female,Married,5516,39213,0.59,Unemployed,Business,0
+795,48,Male,Single,11250,35148,0.8,Employed,Car,0
+796,62,Female,Single,11168,43633,0.43,Unemployed,Business,0
+797,42,Female,Married,6577,23918,0.53,Unemployed,Car,0
+798,41,Female,Married,2727,47694,0.79,Self-employed,Home Improvement,0
+799,26,Male,Married,12719,20540,0.79,Employed,Home Improvement,1
+800,21,Male,Married,13328,12580,0.53,Self-employed,Personal,0
+801,25,Male,Married,9468,39402,0.58,Employed,Personal,0
+802,61,Female,Single,2342,39578,0.48,Unemployed,Personal,0
+803,32,Male,Married,3447,25917,0.86,Unemployed,Home Improvement,0
+804,46,Male,Married,12571,23318,0.37,Employed,Education,0
+805,54,Male,Single,8581,11179,0.86,Employed,Home Improvement,1
+806,34,Male,Single,13851,13251,0.71,Self-employed,Business,1
+807,46,Male,Married,8317,46899,0.62,Employed,Home Improvement,0
+808,47,Male,Single,2526,20493,0.32,Employed,Home Improvement,0
+809,29,Female,Married,12088,21466,0.59,Employed,Car,0
+810,46,Female,Single,14946,31206,0.54,Self-employed,Car,0
+811,42,Male,Single,12265,46475,0.4,Employed,Car,0
+812,50,Male,Married,8748,20624,0.69,Unemployed,Home Improvement,1
+813,63,Female,Single,2405,27564,0.88,Self-employed,Education,0
+814,37,Female,Single,9986,23412,0.64,Self-employed,Business,1
+815,46,Male,Single,11765,28990,0.73,Unemployed,Business,1
+816,56,Male,Single,14792,36517,0.34,Unemployed,Education,0
+817,21,Male,Single,5740,14156,0.55,Unemployed,Education,0
+818,28,Male,Single,14466,24064,0.37,Employed,Business,0
+819,55,Female,Married,14419,26711,0.67,Unemployed,Personal,1
+820,35,Male,Married,3846,31106,0.86,Employed,Car,0
+821,42,Male,Single,3478,17589,0.7,Self-employed,Car,0
+822,34,Male,Married,12587,24736,0.35,Self-employed,Business,0
+823,46,Male,Married,2771,21975,0.51,Unemployed,Education,0
+824,48,Female,Married,7525,37218,0.63,Employed,Personal,0
+825,43,Female,Single,10770,8214,0.54,Unemployed,Business,0
+826,34,Female,Married,13093,31581,0.8,Unemployed,Car,0
+827,44,Male,Single,2193,21195,0.79,Employed,Home Improvement,0
+828,22,Male,Married,4007,45582,0.67,Unemployed,Education,0
+829,46,Female,Single,3185,28127,0.52,Self-employed,Home Improvement,0
+830,34,Male,Single,4394,6141,0.45,Unemployed,Business,0
+831,27,Male,Married,13190,29884,0.36,Employed,Car,0
+832,23,Female,Married,11984,25885,0.51,Employed,Personal,0
+833,43,Female,Single,11302,3708,0.55,Self-employed,Home Improvement,0
+834,63,Female,Married,6005,19375,0.71,Employed,Personal,1
+835,38,Female,Married,9429,16088,0.69,Employed,Car,1
+836,58,Male,Married,4261,45602,0.34,Self-employed,Home Improvement,0
+837,55,Male,Single,5736,46046,0.54,Unemployed,Personal,0
+838,35,Female,Single,13985,11014,0.41,Self-employed,Personal,0
+839,45,Male,Married,12128,4273,0.39,Unemployed,Home Improvement,0
+840,57,Female,Married,8716,48135,0.8,Self-employed,Car,0
+841,48,Female,Married,6875,38306,0.33,Unemployed,Personal,0
+842,30,Male,Single,14549,31881,0.55,Self-employed,Business,0
+843,59,Female,Single,10921,32486,0.4,Unemployed,Home Improvement,0
+844,37,Male,Married,6378,13541,0.83,Self-employed,Education,1
+845,59,Male,Married,9815,9712,0.63,Unemployed,Education,1
+846,42,Male,Married,5451,10168,0.44,Self-employed,Car,0
+847,46,Male,Married,14649,4551,0.6,Employed,Business,0
+848,64,Female,Married,9616,13297,0.74,Unemployed,Personal,1
+849,45,Male,Married,14728,44733,0.87,Self-employed,Education,0
+850,37,Female,Single,12332,28128,0.43,Unemployed,Car,0
+851,33,Female,Married,11836,3832,0.83,Unemployed,Business,1
+852,40,Female,Single,4800,29483,0.86,Self-employed,Business,1
+853,45,Female,Married,10333,23063,0.85,Unemployed,Car,1
+854,24,Male,Married,7410,23963,0.68,Self-employed,Car,1
+855,30,Male,Single,3455,14422,0.68,Employed,Personal,0
+856,23,Female,Single,8892,33920,0.54,Unemployed,Car,0
+857,61,Female,Single,7808,12156,0.75,Employed,Personal,1
+858,38,Male,Single,8796,12108,0.62,Unemployed,Personal,1
+859,56,Female,Married,6796,32845,0.71,Unemployed,Home Improvement,0
+860,42,Male,Single,7093,3800,0.56,Unemployed,Business,0
+861,54,Female,Married,12288,39078,0.74,Self-employed,Business,0
+862,28,Male,Single,3325,43712,0.79,Employed,Business,0
+863,60,Female,Married,6976,3610,0.39,Unemployed,Home Improvement,0
+864,64,Female,Married,11405,13067,0.8,Self-employed,Personal,1
+865,39,Male,Married,3159,34872,0.62,Unemployed,Personal,0
+866,62,Female,Married,6650,11728,0.81,Self-employed,Car,1
+867,61,Female,Married,14691,30566,0.56,Unemployed,Home Improvement,0
+868,57,Male,Married,6987,30783,0.53,Employed,Car,0
+869,26,Female,Single,6697,21583,0.85,Employed,Home Improvement,1
+870,46,Male,Married,2340,21238,0.45,Unemployed,Car,0
+871,54,Male,Single,5828,8263,0.81,Self-employed,Education,1
+872,26,Female,Single,3968,2914,0.59,Unemployed,Business,0
+873,57,Female,Married,2703,24749,0.61,Self-employed,Business,0
+874,53,Female,Single,14605,20456,0.49,Unemployed,Personal,0
+875,42,Female,Married,7482,26582,0.64,Self-employed,Education,1
+876,41,Female,Single,12621,1406,0.5,Employed,Business,0
+877,26,Female,Married,8376,14689,0.32,Unemployed,Personal,0
+878,26,Female,Single,3800,33934,0.46,Employed,Education,0
+879,24,Male,Married,7463,34276,0.3,Employed,Business,0
+880,50,Female,Married,6912,37432,0.89,Unemployed,Car,0
+881,31,Male,Married,6648,20873,0.88,Unemployed,Home Improvement,1
+882,50,Female,Married,2855,14050,0.54,Self-employed,Education,0
+883,51,Female,Single,12004,1680,0.74,Self-employed,Personal,1
+884,44,Male,Married,4866,19908,0.51,Employed,Education,0
+885,29,Female,Single,13834,19504,0.7,Self-employed,Personal,1
+886,23,Female,Single,2182,22644,0.78,Self-employed,Education,0
+887,51,Male,Single,5112,38125,0.87,Unemployed,Personal,0
+888,60,Female,Married,7670,2363,0.54,Self-employed,Business,0
+889,57,Female,Single,6492,43291,0.77,Employed,Car,0
+890,56,Female,Single,7823,36060,0.46,Self-employed,Business,0
+891,44,Male,Single,3517,2538,0.89,Employed,Car,0
+892,51,Female,Married,7002,37176,0.32,Unemployed,Business,0
+893,26,Female,Married,3356,42520,0.66,Employed,Business,0
+894,22,Female,Single,12366,26675,0.7,Self-employed,Education,1
+895,40,Female,Married,5629,19287,0.71,Unemployed,Home Improvement,1
+896,48,Male,Married,5628,1174,0.37,Self-employed,Personal,0
+897,31,Male,Single,14288,27732,0.86,Unemployed,Personal,1
+898,24,Female,Single,13431,35998,0.41,Unemployed,Personal,0
+899,35,Female,Married,13883,38055,0.67,Self-employed,Car,0
+900,26,Male,Single,10210,13112,0.43,Self-employed,Personal,0
+901,50,Male,Married,13595,40874,0.48,Unemployed,Personal,0
+902,58,Female,Married,14871,10689,0.63,Unemployed,Education,1
+903,22,Male,Married,14743,45814,0.55,Self-employed,Business,0
+904,35,Female,Married,13196,20555,0.4,Employed,Personal,0
+905,31,Male,Married,8132,34919,0.4,Self-employed,Home Improvement,0
+906,28,Male,Married,11324,8619,0.55,Unemployed,Personal,0
+907,46,Male,Single,13531,7033,0.75,Self-employed,Car,1
+908,64,Male,Single,8588,42328,0.84,Employed,Car,0
+909,25,Female,Married,5311,5946,0.35,Self-employed,Car,0
+910,26,Male,Married,8048,25618,0.54,Unemployed,Personal,0
+911,46,Male,Married,13564,35675,0.36,Self-employed,Education,0
+912,24,Female,Single,8246,37258,0.31,Unemployed,Home Improvement,0
+913,39,Male,Married,2987,19919,0.7,Unemployed,Personal,0
+914,40,Male,Single,5321,5173,0.66,Self-employed,Education,1
+915,53,Female,Married,6615,44833,0.4,Unemployed,Education,0
+916,40,Male,Married,10365,27400,0.44,Unemployed,Personal,0
+917,32,Female,Single,5741,5769,0.31,Employed,Personal,0
+918,21,Female,Single,5052,38564,0.8,Employed,Education,0
+919,46,Female,Married,8574,46814,0.88,Employed,Education,0
+920,34,Female,Married,2726,15211,0.38,Employed,Education,0
+921,58,Male,Married,5760,24255,0.44,Unemployed,Personal,0
+922,57,Female,Single,7806,28962,0.82,Self-employed,Education,1
+923,31,Male,Single,3875,20356,0.86,Unemployed,Car,0
+924,56,Male,Single,8993,21306,0.55,Unemployed,Personal,0
+925,33,Male,Single,6033,5997,0.33,Unemployed,Car,0
+926,63,Male,Single,7443,18376,0.32,Self-employed,Business,0
+927,23,Male,Single,2989,41880,0.64,Employed,Personal,0
+928,53,Male,Married,5744,39055,0.54,Unemployed,Business,0
+929,26,Male,Married,12878,11578,0.32,Unemployed,Education,0
+930,30,Male,Single,10611,19624,0.65,Employed,Education,1
+931,25,Male,Married,2593,40194,0.31,Unemployed,Home Improvement,0
+932,43,Male,Married,3774,45367,0.77,Self-employed,Education,0
+933,30,Female,Single,12651,1389,0.48,Unemployed,Business,0
+934,64,Female,Married,2935,34767,0.32,Unemployed,Education,0
+935,22,Female,Single,5808,46580,0.65,Employed,Personal,0
+936,33,Male,Single,2331,49367,0.54,Unemployed,Education,0
+937,60,Female,Married,13641,2855,0.88,Unemployed,Home Improvement,1
+938,22,Female,Single,9922,41893,0.63,Self-employed,Education,0
+939,40,Female,Single,4702,14794,0.47,Employed,Business,0
+940,21,Male,Single,14198,36531,0.73,Employed,Business,0
+941,57,Male,Single,7889,5986,0.46,Self-employed,Education,0
+942,29,Male,Single,7054,33298,0.84,Unemployed,Business,0
+943,37,Male,Single,5868,2481,0.52,Employed,Business,0
+944,29,Female,Single,6200,4731,0.63,Employed,Home Improvement,1
+945,31,Female,Single,2201,17835,0.33,Unemployed,Personal,0
+946,35,Female,Married,4497,28798,0.56,Unemployed,Home Improvement,0
+947,44,Female,Married,3842,27113,0.8,Employed,Car,0
+948,58,Male,Married,12058,20477,0.78,Unemployed,Home Improvement,1
+949,55,Male,Single,12188,18266,0.43,Employed,Education,0
+950,50,Male,Single,11101,21792,0.44,Unemployed,Personal,0
+951,51,Female,Married,14497,21452,0.79,Unemployed,Education,1
+952,25,Male,Married,6658,44526,0.86,Self-employed,Car,0
+953,64,Male,Married,13381,42334,0.36,Unemployed,Personal,0
+954,34,Female,Single,9544,12889,0.57,Self-employed,Business,0
+955,31,Female,Married,9718,25335,0.5,Unemployed,Home Improvement,0
+956,29,Male,Married,2770,12254,0.82,Employed,Education,0
+957,54,Male,Single,5155,22074,0.35,Employed,Car,0
+958,32,Male,Married,12693,12442,0.43,Unemployed,Business,0
+959,55,Male,Single,12906,47289,0.75,Unemployed,Home Improvement,0
+960,55,Male,Single,14916,38327,0.33,Employed,Business,0
+961,21,Male,Single,13777,17199,0.6,Unemployed,Home Improvement,0
+962,60,Female,Married,3628,8291,0.57,Self-employed,Personal,0
+963,42,Female,Married,2386,41928,0.5,Self-employed,Business,0
+964,49,Female,Single,8031,1112,0.54,Self-employed,Business,0
+965,28,Male,Married,13613,22515,0.62,Self-employed,Business,1
+966,31,Female,Married,8439,20581,0.4,Self-employed,Personal,0
+967,61,Male,Married,8401,49692,0.64,Unemployed,Car,0
+968,57,Male,Married,6008,27500,0.78,Unemployed,Home Improvement,1
+969,34,Female,Single,14285,33026,0.76,Self-employed,Business,0
+970,50,Male,Married,14555,17523,0.39,Unemployed,Personal,0
+971,55,Male,Single,4466,2424,0.39,Unemployed,Car,0
+972,41,Female,Single,4282,20552,0.46,Self-employed,Home Improvement,0
+973,57,Female,Married,3856,11808,0.52,Unemployed,Personal,0
+974,25,Female,Single,9980,39811,0.55,Unemployed,Home Improvement,0
+975,39,Male,Married,3998,7989,0.71,Unemployed,Business,0
+976,34,Female,Married,7476,24620,0.33,Self-employed,Car,0
+977,46,Female,Single,11428,40029,0.32,Unemployed,Personal,0
+978,24,Male,Single,6669,1887,0.54,Employed,Car,0
+979,45,Female,Single,14336,32802,0.72,Employed,Business,0
+980,62,Female,Single,11342,20488,0.42,Self-employed,Car,0
+981,45,Female,Married,6318,31013,0.68,Employed,Car,0
+982,38,Male,Married,9064,17402,0.46,Self-employed,Education,0
+983,60,Male,Married,9446,22205,0.83,Employed,Car,1
+984,28,Male,Single,3431,27049,0.84,Employed,Home Improvement,0
+985,59,Male,Single,7624,13253,0.48,Employed,Personal,0
+986,60,Female,Single,9461,19990,0.44,Self-employed,Education,0
+987,34,Male,Married,3819,8846,0.55,Self-employed,Personal,0
+988,52,Male,Single,12516,26027,0.44,Unemployed,Personal,0
+989,58,Female,Married,3130,40200,0.7,Self-employed,Business,0
+990,53,Female,Single,8563,47220,0.8,Employed,Business,0
+991,43,Female,Married,4658,47163,0.7,Employed,Education,0
+992,35,Male,Married,5500,4765,0.79,Self-employed,Business,1
+993,53,Male,Single,10566,16950,0.54,Self-employed,Business,0
+994,45,Male,Single,4120,46270,0.39,Self-employed,Business,0
+995,37,Female,Married,6020,10741,0.74,Unemployed,Personal,1
+996,53,Female,Married,12213,23742,0.52,Employed,Education,0
+997,22,Male,Single,13897,25703,0.7,Unemployed,Personal,1
+998,34,Female,Single,5259,39709,0.46,Unemployed,Home Improvement,0
+999,60,Female,Married,13627,38623,0.35,Employed,Personal,0
+1000,60,Female,Single,12081,23931,0.9,Employed,Home Improvement,1
