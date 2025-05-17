@@ -2,76 +2,37 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load trained model
 model = joblib.load("Loan.pkl")
 
-# Encoders for categorical inputs
-gender_map = {
-    "Male": 1,
-    "Female": 0
-}
-
-marital_map = {
-    "Married": 1,
-    "Single": 0
-}
-
-employment_map = {
-    "Employed": 0,
-    "Self-employed": 1,
-    "Unemployed": 2
-}
-
-loan_purpose_map = {
-    "Car": 0,
-    "Education": 1,
-    "Business": 2,
-    "Personal": 3,
-    "Home Improvement": 4
-}
-
-# App title
 st.title("Loan Approval Prediction")
 
-# User inputs
-age = st.slider("Age", 21, 65, 30)
-
+age = st.slider("Age", 21, 65)
 gender = st.selectbox("Gender", ["Male", "Female"])
+married = st.selectbox("Marital Status", ["Single", "Married"])
+income = st.number_input("Monthly Income", 1000, 50000, step=500)
+loan = st.number_input("Loan Amount", 1000, 50000, step=500)
+score = st.slider("Credit Score", 0.0, 1.0, step=0.01)
+job = st.selectbox("Employment", ["Employed", "Self-employed", "Unemployed"])
+purpose = st.selectbox("Loan Purpose", ["Car", "Education", "Business", "Personal", "Home Improvement"])
 
-marital_status = st.selectbox("Marital Status", ["Single", "Married"])
-
-income = st.number_input("Monthly Income", min_value=1000, max_value=50000, value=5000, step=500)
-
-loan_amount = st.number_input("Loan Amount", min_value=1000, max_value=50000, value=10000, step=500)
-
-credit_score = st.slider("Credit Score (0.0 - 1.0)", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
-
-employment_status = st.selectbox("Employment Status", ["Employed", "Self-employed", "Unemployed"])
-
-loan_purpose = st.selectbox("Loan Purpose", ["Car", "Education", "Business", "Personal", "Home Improvement"])
-
-# Prepare input data
-input_data = pd.DataFrame({
+data = pd.DataFrame({
     "Age": [age],
-    "Gender": [gender_map[gender]],
-    "Marital_Status": [marital_map[marital_status]],
+    "Gender": [1 if gender == "Male" else 0],
+    "Marital_Status": [1 if married == "Married" else 0],
     "Income": [income],
-    "Loan_Amount": [loan_amount],
-    "Credit_Score": [credit_score],
-    "Employment_Status": [employment_map[employment_status]],
-    "Loan_Purpose": [loan_purpose_map[loan_purpose]]
+    "Loan_Amount": [loan],
+    "Credit_Score": [score],
+    "Employment_Status": [0 if job == "Employed" else 1 if job == "Self-employed" else 2],
+    "Loan_Purpose": [ ["Car", "Education", "Business", "Personal", "Home Improvement"].index(purpose) ]
 })
 
-# Predict and display result
 if st.button("Predict"):
-    prediction = model.predict(input_data)[0]
-    probability = model.predict_proba(input_data)[0][prediction]
-
-    if prediction == 1:
-        st.success(f"Loan Approved! (Confidence: {probability:.2f})")
+    pred = model.predict(data)[0]
+    prob = model.predict_proba(data)[0][pred]
+    if pred == 1:
+        st.success(f"Loan Approved! (Confidence: {prob:.2f})")
     else:
-        st.error(f"Loan Rejected. (Confidence: {probability:.2f})")
+        st.error(f"Loan Rejected. (Confidence: {prob:.2f})")
 
-# Footer
 st.markdown("---")
 st.markdown("### Developed by **Mosaad Hendam**")
