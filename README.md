@@ -1,22 +1,17 @@
-# Loan Approval Prediction App
+# 🏦 Loan Approval Prediction Web App
 
-This is a simple and professional web app built with **Streamlit** that predicts loan approval based on user inputs using a trained Random Forest model.
+This project is a simple and professional **Loan Approval Prediction** web app built using **Python**, **Scikit-learn**, and **Streamlit**. The model predicts whether a loan application will be **Approved** or **Rejected** based on user inputs.
 
-## Features
-- User-friendly interface for entering loan applicant details
-- Real-time loan approval prediction with confidence score
-- Supports inputs like age, gender, income, loan amount, credit score, employment status, and loan purpose
+## 🔍 Features
 
-## Getting Started
+- Predict loan approval based on:
+  - Applicant Income
+  - Loan Amount
+  - Credit History
+  - Education
+  - Marital Status
+  - Number of Dependents
+  - Self-Employment Status
+- User-friendly web interface using Streamlit
 
-### Prerequisites
-- Python 3.7 or higher
-- pip package manager
 
-### Installation
-
-1. Clone this repository or download the files.
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
